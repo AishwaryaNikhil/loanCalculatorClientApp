@@ -20,7 +20,7 @@
                   <div class="input-group mb-3">
                       <label for="loanAmountSlider" class="form-label">Loan Amount</label>
                       <input type="range" class="form-range no-border active" min="500000" max="8000000" name = "loanAmountSlider" [(ngModel)]="loanAmountSlider" (ngModelChange)="getSliderAmount($event)">
-                      <type="text"  class="form-control" name = "loanAmountText" [(ngModel)]="loanAmountText" (ngModelChange)="getTextAmount($event)" min="500000" max="8000000" >
+                      <input type="text"  class="form-control" name = "loanAmountText" [(ngModel)]="loanAmountText" (ngModelChange)="getTextAmount($event)" min="500000" max="8000000" >
                   </div>
 
                   <label for="Term">Installments In Years</label>
